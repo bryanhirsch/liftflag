@@ -1,0 +1,9 @@
+<?php
+/**
+ *
+ */
+
+function liftflag_init() {
+  $module_path = drupal_get_path('module', 'liftflag');
+  drupal_add_js($module_path . '/liftflag.js');
+}
